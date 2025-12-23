@@ -10,5 +10,6 @@ let additionalOrders = [
 ];
 
 // Start coding here
+let newOrders =[...orders,...additionalOrders]; //อยู่ในarray
 
 console.log(newOrders);
